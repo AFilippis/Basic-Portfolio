@@ -4,86 +4,156 @@
   
   body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../images/round.png);
+    color: #777777;
+    background-image: url(../images/round/round.png);
     margin: 0;
   }
   
   header {
-    background-color: #f2f2f2;
-    border-bottom: 4px solid #ccc;
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
     width: 100%;
-    height: 100px;
     margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
-  h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif; 
+  .headerContainer {
+      width: 960px;
+      margin: 0 auto;
+  }
+
+  h1, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    color: #ffffff;
   }
   
-  .nameRight {
+  .nameLeft {
     display: inline-block;
+    /* position: relative; */
     background-color: #4aaaa5;
-    color: white;
     box-align: center;
     height: 96px;
     padding: 0px 5px 0px 5px;
-    margin-left: 332px;
+    /* left: 332px; */
+  }
+
+  
+  .nameLeft h1 {
+    padding: 5px 30px 0px 30px;
   }
   
-  .nameRight h1 {
-    padding: 5px 30px 10px 30px;
-  }
-  
-  .headerNavLeft {
+  .headerNavRight {
     display: inline-block;
+    position: relative;
     list-style-type: none;
-    margin-left: 342px;
+    left: 348px;
   }
   
-  .headerNavLeft li {
+  .headerNavRight li {
     display: inline-block;
     padding: 10px;
   }
   
-  .headerNavLeft li a:link {
+  .headerNavRight li a:link {
     text-decoration: none;
-    color: grey;
+    color: #777777;
   }
 
-  .headerNavLeft li a:visited {
-      color: grey;
+  .headerNavRight li a:visited {
+    color: #777777;
   }
   
-  .headerNavLeft li#portfolio {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+  .headerNavRight li#portfolio {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
   }
   
-  .content {
-    background: white;
-    border: 2px solid #ccc;
+  .contentContainer {
+    background: #ffffff;
+    border: 2px solid #dddddd;
     width: 960px;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 179px;
+    margin-bottom: 175px;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
   }
 
-  .content h1 {
+
+  .contentContainer h1 {
     color: #4aaaa5;
     margin-top:0;
   }
+
+  .contentContainer p {
+    line-height: 36px;
+  }
+
   
   .lineBreak {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 3px solid #e0e0e0;
   }
-  
+
+  .linePush {
+    padding-bottom: 10px;
+  }
+
+/* index.html specific */
+  .aboutMeImg {
+    width: 200px;
+    height: 200px;
+    margin-right: 36px;
+    margin-bottom: 12px;
+    float: left;
+  }
+
+/* portfolio.html specific */
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.imageText {
+    background-color:#4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+   
+}
+
+
+
+/* contact.html specific */
+
   footer {
-    background-color: gray;
-    color: white;
-    border-top: 8px solid #4aaaa5;
-    height: 100px;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    color: #b8b6ac;
+    font-size: 16px;
+    height: 78px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -91,4 +161,7 @@
     text-align: center;
   }
   
+  footer p {
+    margin-top: 44px;
+  }
   
