@@ -1,0 +1,18 @@
+<header>
+        <div class = "headerContainer">
+
+            <div class="nameLeft">
+                <h1> Amanda Filippis </h1>
+            </div>
+
+
+            <div class="headerNavRight">
+                <ul>
+                    <li><a href="index.html">About</a></li>  
+                    <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
