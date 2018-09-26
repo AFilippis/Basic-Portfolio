@@ -56,7 +56,7 @@ header {
 
     display: inline-block;
 
-    list-style-type: none
+    list-style-type: none;
 }
   
 .headerNavRight li {
@@ -171,6 +171,8 @@ header {
 
 #formMessage {
     height: 200px;
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 #formSubmit {
