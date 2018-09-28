@@ -139,6 +139,7 @@ header {
     width: 33.3%;
 }
  
+/* clearfix */
 .row:after {
     display: table;
     clear: both;
@@ -152,7 +153,6 @@ header {
 
     text-align: center;
 
-    background-color: white;
 }
 
 .imageText {
@@ -163,6 +163,10 @@ header {
 
     background-color: #4aaaa5;
    
+}
+
+.portImage {
+    width: 100%;
 }
 
 /* contact.html specific */
