@@ -108,15 +108,6 @@ header {
     line-height: 36px;
 }
 
-  
-.lineBreak {
-    border-bottom: 3px solid #e0e0e0;
-}
-
-.linePush {
-    padding-bottom: 10px;
-}
-
 /* index.html specific */
 .aboutMeImg {
     float: left;
@@ -128,15 +119,18 @@ header {
 }
 
 /* portfolio.html specific */
-.row,
+
+/* .row,
 .row > .column {
     padding: 8px;
-}
+{
+ */
 
 .column {
     float: left;
 
     width: 33.3%;
+    padding: 8px;
 }
  
 /* clearfix */
