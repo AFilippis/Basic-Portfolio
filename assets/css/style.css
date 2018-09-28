@@ -74,7 +74,11 @@ header {
 .headerNavRight li a:visited {
     color: #777777;
 }
-  
+
+.headerNavRight li a:hover {
+    color: #4aaaa5;
+}
+
 .headerNavRight li#portfolio {
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
